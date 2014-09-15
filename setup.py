@@ -3,15 +3,15 @@ from distutils.core import setup
 
 
 setup(
-    name = 'ireload',
-    version = '0.1.0',
-    py_modules = ['ireload'],
+    name = 'iload',
+    version = '0.1.1',
+    py_modules = ['iload'],
     description = 'Load or reload python object',
     long_description = open('README').read(),
     author = 'huyx',
     author_email = 'ycyuxin@gmail.com',
-    url = 'https://github.com/huyx/ireload',
-    keywords = ['reload'],
+    url = 'https://github.com/huyx/iload',
+    keywords = ['load'],
     classifiers = [
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
