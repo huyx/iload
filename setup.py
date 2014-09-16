@@ -22,10 +22,10 @@ def read_files(*fnames):
 
 setup(
     name = 'iload',
-    version = '0.1.3',
+    version = '0.1.4',
     py_modules = ['iload'],
     description = 'Load or reload python object',
-    long_description = read_files('README.rst', 'CHANGES.rst'),
+    long_description = read_files('README.txt', 'CHANGES.txt'),
     author = 'huyx',
     author_email = 'ycyuxin@gmail.com',
     url = 'https://github.com/huyx/iload',
