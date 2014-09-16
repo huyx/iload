@@ -18,11 +18,11 @@ def read(fname):
     return open(fname).read().strip()
 
 def read_files(*fnames):
-    return '\r\n'.join(map(read, fnames))
+    return '\r\n\r\n\r\n'.join(map(read, fnames))
 
 setup(
     name = 'iload',
-    version = '0.1.5',
+    version = '0.1.10',
     py_modules = ['iload'],
     description = 'Load or reload python object',
     long_description = read_files('README.rst', 'CHANGES.rst'),
